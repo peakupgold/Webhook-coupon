@@ -1,0 +1,23 @@
+{
+  "name": "shopify-customer-webhook",
+  "version": "1.0.0",
+  "description": "Webhook to create Shopify customers from discount popup submissions",
+  "main": "api/webhook.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "shopify",
+    "webhook",
+    "customer-creation",
+    "newsletter",
+    "discount-popup"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
